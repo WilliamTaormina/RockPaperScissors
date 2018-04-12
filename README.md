@@ -16,8 +16,8 @@
 
 * For example:
 
-
-````const multiplyByNineFifths = (celsius) => {
+```
+const multiplyByNineFifths = (celsius) => {
  return celsius * (9/5);
 };
 
@@ -25,13 +25,15 @@ const getFahrenheit = (celsius) => {
  return multiplyByNineFifths(celsius) + 32;
 };
 
-console.log('The temperature is ' + getFahrenheit(15) + '°F'); ```
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
+```
 
 can be refactored to this:
 
-``` const multiplyByNineFifths = celsius => celsius * (9/5);
+```
+const multiplyByNineFifths = celsius => celsius * (9/5);
 
 const getFahrenheit = celsius => multiplyByNineFifths(celsius) + 32;
 
-console.log('The temperature is ' + getFahrenheit(15) + '°F');```
-````
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
+```
