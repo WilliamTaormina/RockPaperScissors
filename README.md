@@ -4,6 +4,12 @@
 
 ### What I learned:
 
+* _Functions_ are written to perform a task.
+* Functions take data, perform a set of tasks on the data, and then return the result.
+* We can define parameters to be used when calling the function.
+* When calling a function, we can pass in arguments, which will set the function's parameters.
+* we can use _return_ to return the result of a function which allows us to call functions anywhere, even inside other functions.
+
 * Functions ins javascript are generally declared as either a _function declaration_ or a _function expression_
 * a _function declaration_ is a function that is bound to an identifier or name.
 * a _function expression_ is similar to function declaration, with the exception that the function identifier can be omitted, creating an anonymous function.
