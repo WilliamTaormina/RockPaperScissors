@@ -14,7 +14,7 @@
 2.  A function composed of a sole single-line block is automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed. This is referred to as _implicit return_.
 3.  A function comprised of sole single-line blocks does not need brackets.
 
-* For example:
+For example, this longer code block:
 
 ```
 const multiplyByNineFifths = (celsius) => {
